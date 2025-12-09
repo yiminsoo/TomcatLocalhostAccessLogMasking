@@ -16,7 +16,7 @@ public class MaskingAttributeValve extends ValveBase {
     private static final Pattern ID_PATTERN = Pattern.compile("id:(\\d+)");
     
     private static final String MASKED_STRING = "id:******"; 
-    
+       // 원하는 uri의 패턴을 넣어주세요 / input uri pattern that you want
     private static final String MASKED_URI_ATTRIBUTE = "maskedUriForLog";
 
    
@@ -42,4 +42,5 @@ public class MaskingAttributeValve extends ValveBase {
  
         return matcher.replaceAll(MASKED_STRING);
     }
+
 }
