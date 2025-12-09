@@ -1,4 +1,4 @@
-## 📝 Tomcat Access Log 커스텀 Valve 빌드 및 배포
+## 📝 Tomcat Access Log Custom Valve 
 
 ---
 
