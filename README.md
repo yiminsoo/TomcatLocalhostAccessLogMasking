@@ -15,7 +15,7 @@
 아래 PowerShell 코드는 커스텀 클래스(`MaskingAttributeValve.java`)를 컴파일하고, JAR 파일로 패키징한 후, Tomcat의 라이브러리(`lib`) 디렉토리에 배포하는 과정을 자동화합니다.
 
 **✅ 필수 준비 사항:**
-* **JDK (Java Development Kit)**가 설치되어 있어야 합니다.
+* `JDK (Java Development Kit)`가 설치되어 있어야 합니다.
 * 컴파일에 필요한 Tomcat 라이브러리(`tomcat-juli.jar`, `catalina.jar` 등)가 스크립트 실행 경로의 **`lib`** 디렉토리에 위치해야 합니다.
 * **`MaskingAttributeValve.java`** 파일이 **`customvalve`** 디렉토리 내에 존재해야 합니다.
 
